@@ -8,6 +8,7 @@ export default {
     extend: {
        fontFamily: {
         'open': ["Open Sans"],
+        'papri': ["Paprika"],
       },
       colors:{
         'primary':"#1BBF00",
@@ -15,6 +16,10 @@ export default {
       },
       maxWidth:{
         "container":"1170px"
+      }
+      ,
+      backgroundImage:{
+        "banner":"url('./assets/banner.png')"
       }
     },
   },
