@@ -14,6 +14,7 @@ export default {
         'primary':"#1BBF00",
         'secondary':"#160C6D",
         'thrid':"#141135",
+        'four':"#726E9E",
       },
       maxWidth:{
         "container":"1170px"
