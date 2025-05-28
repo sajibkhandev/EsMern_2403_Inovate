@@ -13,6 +13,7 @@ export default {
       colors:{
         'primary':"#1BBF00",
         'secondary':"#160C6D",
+        'thrid':"#141135",
       },
       maxWidth:{
         "container":"1170px"
