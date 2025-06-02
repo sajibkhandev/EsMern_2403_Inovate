@@ -4,6 +4,7 @@ import Banner from './layouts/Banner'
 import Service from './layouts/Service'
 import Feature from './layouts/Feature'
 import CardLayout from './layouts/CardLayout'
+import ChoosePlan from './layouts/ChoosePlan'
 
 
 
@@ -16,6 +17,7 @@ const App = () => {
     <Service/>
     <Feature/>
     <CardLayout/>
+    <ChoosePlan/>
     
     </>
   )
