@@ -8,7 +8,7 @@ const FeatureToggle = ({className}) => {
             <div className='absolute top-1 left-0 w-[25px] rounded-full h-[25px] bg-[#1BBF00]'></div>
             <div className='absolute top-1 left-[15px] w-[25px] rounded-full h-[25px] bg-[#CBC8F0]'></div>
         </div>
-        <p className='w-[366px] text-lg text-four font-normal font-papri'>We make processes and technology work efficiently together.</p>
+        <p className='md:w-[366px] text-sm md:text-lg text-four font-normal font-papri'>We make processes and technology work efficiently together.</p>
     </Flex>
   )
 }

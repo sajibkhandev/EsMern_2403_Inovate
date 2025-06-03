@@ -7,9 +7,9 @@ import List from '../components/List'
 
 const Footer = () => {
   return (
-    <footer className='pt-[126px] pb-20 bg-[#48409C]'>
+    <footer className='pt-[126px] pb-20 bg-[#48409C] px-3 '>
         <Container>
-           <Flex>
+           <Flex className='flex-col'>
                     <div className='w-3/6'>
                     <Image src={FooterLogo}/>
                     <p className='text-white text-lg font-open font-normal w-[449px] pt-11'>Install any demo or template with a single click. You can mix and match all the demos & templates. Every demo can be turned into one or multi-page.</p>
@@ -54,7 +54,7 @@ const Footer = () => {
            </Flex>
 
 
-           <Flex className='justify-between  text-white pt-20'>
+           <Flex className='justify-between  text-white pt-20 flex-col'>
                <p className='text-lg text-[#FEFEFE] font-normal font-open'>@20201 Innovate.All rights reserved.</p>
             <Flex className='gap-x-[60px]'>
                 <p className='text-lg text-[#FEFEFE] font-normal font-open'>Terms & condition</p>

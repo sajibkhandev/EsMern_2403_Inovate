@@ -10,8 +10,8 @@ const Feature = () => {
   return (
     <section className='bg-[#FDFDFD] py-24'>
         <Container>
-            <Flex>
-                <div className='w-1/2'>
+            <Flex className='!block md:!flex px-3 md:px-0'>
+                <div className='md:w-1/2'>
                 <FeatureToggle />
                 <FeatureToggle className='bg-white py-[42px]'/>
                 <FeatureToggle/>
@@ -19,9 +19,9 @@ const Feature = () => {
                 <FeatureToggle/>
                 </div>
 
-                <div className='w-1/2 pl-[140px]'>
+                <div className='md:w-1/2 md:pl-[140px]'>
                     <CommonHeading text="Why Choose Us"/>
-                    <CommonSubHeading className='w-[393px] pt-3 pb-10' text="We are now a team of strategists, engineers, designers, and marketers who both use and develop technology for a variety of client needs."/>
+                    <CommonSubHeading className='md:w-[393px] pt-3 pb-10' text="We are now a team of strategists, engineers, designers, and marketers who both use and develop technology for a variety of client needs."/>
                     <Button text="Contact Us"/>
                 </div>
             </Flex>
