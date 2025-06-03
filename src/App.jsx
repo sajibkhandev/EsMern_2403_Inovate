@@ -5,6 +5,7 @@ import Service from './layouts/Service'
 import Feature from './layouts/Feature'
 import CardLayout from './layouts/CardLayout'
 import ChoosePlan from './layouts/ChoosePlan'
+import Footer from './layouts/Footer'
 
 
 
@@ -18,6 +19,7 @@ const App = () => {
     <Feature/>
     <CardLayout/>
     <ChoosePlan/>
+    <Footer/>
     
     </>
   )
